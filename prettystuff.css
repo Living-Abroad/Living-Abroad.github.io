@@ -5,3 +5,15 @@ h1 {
 figcaption {
     font-family: cursive;
 }
+
+.map { 
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    width: 700px;
+    height: 700px;
+    margin: 20px;
+    padding: 10px;
+    }
+
+}
