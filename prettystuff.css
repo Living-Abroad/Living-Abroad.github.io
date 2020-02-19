@@ -16,3 +16,20 @@ figcaption {
     padding: 10px;
 }
 
+.button1 {
+    position: absolute;
+    bottom: 60px;
+    right: 1000px;
+  }
+  .button2 {
+    position: absolute;
+    bottom: 60px;
+    right: 100px;
+  }
+  
+  .modal {
+    position: absolute;
+    bottom: 60px;
+    right: 1000px;
+    display: none;
+  }
