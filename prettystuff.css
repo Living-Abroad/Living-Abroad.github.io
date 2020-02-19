@@ -21,15 +21,34 @@ figcaption {
     bottom: 60px;
     right: 1000px;
   }
+ /*.button1:active {   
+      background:url(C:\Users\Laptop\OneDrive\Documents\Uni Work\Final Year\Code First - Girls\GitHub\Living-Abroad.github.io\Pin.png) no-repeat;
+  } */
+
   .button2 {
     position: absolute;
     bottom: 60px;
     right: 100px;
   }
   
-  .modal {
+  /*.modal {
     position: absolute;
     bottom: 60px;
     right: 1000px;
+    display: none;
+  }
+  */
+
+  #myModal1 {
+    position: absolute;
+    bottom: 60px;
+    right: 1000px;
+    display: none;
+  }
+
+  #myModal2 {
+    position: absolute;
+    bottom: 60px;
+    right: 100px;
     display: none;
   }
