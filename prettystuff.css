@@ -19,8 +19,11 @@ figcaption {
 
 .button1 {
     position: absolute;
-    bottom: 60px;
-    right: 1000px;
+    float: left;
+    bottom: -61%;
+    left: 17%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
     border-radius: 100px;
     background-color: lightgreen;
   }
@@ -30,8 +33,11 @@ figcaption {
 
   .button2 {
     position: absolute;
-    bottom: 60px;
-    right: 100px;
+    float: left;
+    bottom: -52%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
     border-radius: 100px;
     background-color: lightgreen;
   }
@@ -46,14 +52,26 @@ figcaption {
 
   #myModal1 {
     position: absolute;
-    bottom: 60px;
-    right: 1000px;
+    float: middle;
+    bottom: -61%;
+    left: 17%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
     display: none;
+    background-color: lightgrey;
   }
 
   #myModal2 {
     position: absolute;
-    bottom: 60px;
-    right: 100px;
+    float: middle;
+    bottom: -52%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
     display: none;
+    background-color: lightgrey;
+    
   }
+
+
+

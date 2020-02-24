@@ -7,14 +7,15 @@
   <body>
     <h1>Living Abroad</h1>
     <figcaption>This is a map of Europe - Click on the pins discover more</figcaption>
+   
+ <div class="ImageButtons">
     <figure class="map">
       <img
         src="https://mapofeurope.com/wp-content/uploads/2019/01/colorful-map-of-europe.jpg" 
-        width=1200
-      />
+        width=1200/>
     </figure>
-    <button class="button1" onclick="{showModal('myModal1')}">Madrid</button>
 
+    <button class="button1" onclick="{showModal('myModal1')}">Madrid</button>
     <div id="myModal1" class="modal">
       <div class="modal-content">
         <span class="close">&times;</span>
@@ -23,13 +24,14 @@
     </div>
 
     <button class="button2" onclick="{showModal('myModal2')}">Montpellier</button>
-
     <div id="myModal2" class="modal">
       <div class="modal-content">
         <span class="close">&times;</span>
         <p>Some text in the Modal 2..</p>
       </div>
     </div>
+
+  </div>
     <script src="Interactive.stuff.js"></script>
   </body>
 </html>
