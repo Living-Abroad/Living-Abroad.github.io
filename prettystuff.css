@@ -6,7 +6,7 @@ figcaption {
     font-family: cursive;
 }
 
-.map { 
+/*.map { 
     border: 1px solid black;
     display: flex;
     flex-direction: column;
@@ -15,11 +15,14 @@ figcaption {
     margin: 20px;
     padding: 10px;
 }
+*/
 
 .button1 {
     position: absolute;
     bottom: 60px;
     right: 1000px;
+    border-radius: 100px;
+    background-color: lightgreen;
   }
  /*.button1:active {   
       background:url(C:\Users\Laptop\OneDrive\Documents\Uni Work\Final Year\Code First - Girls\GitHub\Living-Abroad.github.io\Pin.png) no-repeat;
@@ -29,6 +32,8 @@ figcaption {
     position: absolute;
     bottom: 60px;
     right: 100px;
+    border-radius: 100px;
+    background-color: lightgreen;
   }
   
   /*.modal {
