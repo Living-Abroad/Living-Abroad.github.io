@@ -6,26 +6,27 @@ figcaption {
     font-family: cursive;
 }
 
-/*.map { 
-    border: 1px solid black;
+.map { 
     display: flex;
     flex-direction: column;
-    width: 700px;
-    height: 612px;
-    margin: 20px;
-    padding: 10px;
+    margin: 0.1%;
+    padding: 2%;
 }
-*/
+
+.ImageButtons{
+  position: relative;
+}
+
 
 .button1 {
     position: absolute;
-    float: left;
-    bottom: -61%;
-    left: 17%;
+    bottom: 19.1%;
+    left: 16.5%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
-    border-radius: 100px;
+    border-radius: 30px;
     background-color: lightgreen;
+    z-index: +1;
   }
  /*.button1:active {   
       background:url(C:\Users\Laptop\OneDrive\Documents\Uni Work\Final Year\Code First - Girls\GitHub\Living-Abroad.github.io\Pin.png) no-repeat;
@@ -34,7 +35,7 @@ figcaption {
   .button2 {
     position: absolute;
     float: left;
-    bottom: -52%;
+    bottom: 24%;
     left: 30%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
@@ -59,6 +60,7 @@ figcaption {
     -ms-transform: translate(-50%, -50%);
     display: none;
     background-color: lightgrey;
+    border-radius: 20px;
   }
 
   #myModal2 {
@@ -70,7 +72,7 @@ figcaption {
     -ms-transform: translate(-50%, -50%);
     display: none;
     background-color: lightgrey;
-    
+    border-radius: 20px;  
   }
 
 
