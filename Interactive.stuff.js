@@ -3,8 +3,21 @@ showModal = function(name) {
     modal.style.display = "block";
   };
 
-  window.onclick = function(event) {
-    if (event.target == modal) {
+var span = document.getElementsByClassName("close")[0];
+
+  span.onclick = function() {
+    modal.style.display = "none";
+    };
+
+var span = document.getElementsByClassName("close")[1];
+
+    span.onclick = function() {
       modal.style.display = "none";
-    }
-  }
+      };
+
+var span = document.getElementsByClassName("close")[2];
+
+    span.onclick = function() {
+      modal.style.display = "none";
+      };
+      
