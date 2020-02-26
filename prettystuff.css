@@ -63,38 +63,41 @@ figcaption {
 
   #myModal1 {
     position: absolute;
-    float: middle;
     bottom: 61%;
     left: 17%;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
+    transform: translate(50%, 50%);
+    -ms-transform: translate(50%, 50%);
     display: none;
-    background-color: lightgrey;
+    background-color: whitesmoke;
+    opacity: 0.9;
     border-radius: 20px;
+    min-width: 50vw;
   }
 
   #myModal2 {
     position: absolute;
-    float: middle;
     bottom: 52%;
     left: 30%;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
+    transform: translate(50%, 50%);
+    -ms-transform: translate(50%, 50%);
     display: none;
-    background-color: lightgrey;
-    border-radius: 20px;  
+    background-color: whitesmoke;
+    opacity: 0.9;
+    border-radius: 20px; 
+    min-width: 50vw; 
   }
 
   #myModal3 {
     position: absolute;
-    float: middle;
     bottom: 52%;
     left: 20%;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
+    transform: translate(50%, 50%);
+    -ms-transform: translate(50%, 50%);
     display: none;
-    background-color: lightgrey;
-    border-radius: 20px;  
+    background-color: whitesmoke;
+    opacity: 0.9;
+    border-radius: 20px; 
+    min-width: 50vw; 
   }
 
 
