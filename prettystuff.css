@@ -1,19 +1,31 @@
+body {background-color: darkred;}
+
+.banner {
+  text-align: center;
+  min-height: 10%;
+}
+
 h1 { 
    font-family: cursive; 
-}
+   color: white;
+  }
 
 figcaption {
     font-family: cursive;
+    color: white;
 }
 
 .map { 
     display: flex;
     flex-direction: column;
     margin: 0.1%;
-    padding: 2%;
+    padding-top: 1%;
+    padding-bottom: 3%;
+    padding-left: 3%;
+    padding-right: 3%;
 }
 
-.ImageButtons{
+.imagebuttons{
   position: relative;
 }
 
