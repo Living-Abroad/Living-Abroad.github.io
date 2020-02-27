@@ -1,8 +1,36 @@
 body {background-color: darkred;}
 
+.banner {
+  display: flex;
+  justify-content: center;
+  min-height: 5%;
+}
+
+#equal_size {
+  flex: initial;
+  width: 250px;
+}
+
 .topnav{
-background-color: white;
-position: sticky;
+  flex: initial;
+  position: sticky;
+  float: right;
+}
+
+#welcome {
+  text-align: center;
+  flex: 1;
+}
+
+h1 { 
+  font-family: 'Permanent Marker';
+   color: white;
+   align-items: center;
+  }
+
+figcaption {
+    font-family: cursive;
+    color: white;
 }
 
 .topnav a {
@@ -14,23 +42,6 @@ position: sticky;
   font-size: 17px;
 }
 
-
-.banner {
-  text-align: center;
-  min-height: 10%;
-}
-
-h1 { 
-  font-family: 'Permanent Marker';
-   color: white;
-   display: flex;
-   align-items: center;
-  }
-
-figcaption {
-    font-family: cursive;
-    color: white;
-}
 
 .map { 
     display: flex;
@@ -80,13 +91,6 @@ figcaption {
     border-radius: 100px;
     background-color: lightgreen;
   }
-  /*.modal {
-    position: absolute;
-    bottom: 60px;
-    right: 1000px;
-    display: none;
-  }
-  */
 
   #myModal1 {
     position: absolute;

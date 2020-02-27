@@ -16,8 +16,9 @@ body {background-color: darkred;}
     
     
     .banner {
-      text-align: center;
-      min-height: 10%;
+      display: flex;
+      justify-content: center;
+      min-height: 5%;
     }
     
     h1 { 
