@@ -1,0 +1,58 @@
+body {background-color: darkred;}
+
+.topnav{
+    background-color: white;
+    position: sticky;
+    }
+    
+    .topnav a {
+      float: right;
+      color: #f2f2f2;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      font-size: 17px;
+    }
+    
+    
+    .banner {
+      text-align: center;
+      min-height: 10%;
+    }
+    
+    h1 { 
+      font-family: 'Permanent Marker';
+       color: white;
+       display: flex;
+       align-items: center;
+      }
+
+.container {
+    background-color: white;
+    max-width: 1010px;
+    min-height: 100vh;
+    padding: 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.Gallery {
+     max-width: 800px;
+     flex-wrap: wrap;
+     display: flex;
+    }
+
+.gallery-item {
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    height: 250px;
+    margin: 20px;
+    padding: 10px;
+    }
+
+.gallery-item figcaption {
+    text-align: center;
+}
