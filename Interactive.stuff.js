@@ -1,4 +1,10 @@
 showModal = function(name) {
+  
+  var allModals = document.getElementsByClassName("modal");
+  for(var x = 0; x < allModals.length; x++){
+    allModals[x].style.display = "none";
+  }
+
     modal = document.getElementById(name);
     modal.style.display = "block";
   };

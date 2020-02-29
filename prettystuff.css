@@ -96,28 +96,30 @@ figcaption {
 
   #myModal1 {
     position: absolute;
-    bottom: 61%;
-    left: 17%;
-    transform: translate(50%, 50%);
-    -ms-transform: translate(50%, 50%);
+    bottom: 19.5%;
+    left: 16.7%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
     display: none;
     background-color: whitesmoke;
     opacity: 0.9;
     border-radius: 20px;
-    min-width: 50vw;
+    min-width: 20vw;
+    z-index: +1;
   }
 
   #myModal2 {
     position: absolute;
-    bottom: 52%;
+    bottom: 25%;
     left: 30%;
-    transform: translate(50%, 50%);
-    -ms-transform: translate(50%, 50%);
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
     display: none;
     background-color: whitesmoke;
     opacity: 0.9;
     border-radius: 20px; 
-    min-width: 40vw; 
+    min-width: 20vw; 
+    z-index: +1;
   }
 
   #myModal3 {
@@ -131,6 +133,7 @@ figcaption {
     opacity: 0.9;
     border-radius: 20px; 
     min-width: 50vw; 
+    z-index: +1;
   }
 
 
