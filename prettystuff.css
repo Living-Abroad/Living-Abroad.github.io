@@ -8,7 +8,7 @@ body {background-color: darkred;}
 
 #equal_size {
   flex: initial;
-  width: 250px;
+  width: 210px;
 }
 
 .topnav{
@@ -22,15 +22,17 @@ body {background-color: darkred;}
   flex: 1;
 }
 
-h1 { 
+h1 {
   font-family: 'Permanent Marker';
-   color: white;
-   align-items: center;
-  }
+  color: white;
+  text-align: center;
+}
 
 figcaption {
     font-family: cursive;
     color: white;
+    text-align: center;
+
 }
 
 .topnav a {
