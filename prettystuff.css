@@ -8,7 +8,7 @@ body {background-color: darkred;}
 
 #equal_size {
   flex: initial;
-  width: 210px;
+  width: 20%;
 }
 
 .topnav{
