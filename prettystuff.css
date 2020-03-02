@@ -61,7 +61,7 @@ figcaption {
 
 .button1 {
     position: absolute;
-    bottom: 19.5%;
+    bottom: 20%;
     left: 16.7%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
@@ -131,7 +131,7 @@ figcaption {
     background-color: whitesmoke;
     opacity: 0.9;
     border-radius: 20px; 
-    min-width: 50vw; 
+    min-width: 20vw; 
     z-index: +1;
   }
 

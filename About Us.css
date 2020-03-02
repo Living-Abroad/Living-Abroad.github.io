@@ -45,16 +45,26 @@ h1 {
      display: flex;
     }
 
-.gallery-item {
+.gallery-itemone {
     border: 1px solid black;
     display: flex;
     flex-direction: column;
-    width: 250px;
-    height: 250px;
-    margin: 20px;
+    margin: auto;
     padding: 10px;
     }
 
-.gallery-item figcaption {
+    .gallery-itemtwo {
+      border: 1px solid black;
+      display: flex;
+      flex-direction: column;
+      margin: auto;
+      padding: 10px;
+      }
+
+.gallery-itemone figcaption {
     text-align: center;
+}
+
+.gallery-itemtwo figcaption {
+  text-align: center;
 }
