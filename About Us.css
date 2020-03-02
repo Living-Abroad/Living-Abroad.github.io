@@ -43,6 +43,7 @@ h1 {
      max-width: 800px;
      flex-wrap: wrap;
      display: flex;
+
     }
 
 .gallery-itemone {
@@ -51,6 +52,7 @@ h1 {
     flex-direction: column;
     margin: auto;
     padding: 10px;
+   
     }
 
     .gallery-itemtwo {
@@ -63,8 +65,10 @@ h1 {
 
 .gallery-itemone figcaption {
     text-align: center;
+    padding: 5px; 
 }
 
 .gallery-itemtwo figcaption {
   text-align: center;
+  padding: 5px;
 }
