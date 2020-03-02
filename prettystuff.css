@@ -1,19 +1,56 @@
 body {background-color: darkred;}
 
 .banner {
-  text-align: center;
-  min-height: 10%;
+  display: flex;
+  justify-content: center;
+  min-height: 5%;
 }
 
+#equal_size {
+  flex: initial;
+  width: 210px;
+}
+
+.topnav{
+  flex: initial;
+  position: sticky;
+  float: right;
+}
+
+#welcome {
+  text-align: center;
+  flex: 1;
+}
+
+<<<<<<< HEAD
 h1 { 
-  font-family: 'Permanent Marker';
+  font-family: 'Shrikhand';
    color: white;
   }
+=======
+h1 {
+  font-family: 'Permanent Marker';
+  color: white;
+  text-align: center;
+}
+>>>>>>> 724f4c3878b37c57772422091e5f3a95b65baefd
 
 figcaption {
     font-family: cursive;
     color: white;
+    text-align: center;
+
 }
+
+.topnav a {
+  float: right;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
 
 .map { 
     display: flex;
@@ -32,22 +69,20 @@ figcaption {
 
 .button1 {
     position: absolute;
-    bottom: 19.1%;
-    left: 16.5%;
+    bottom: 19.5%;
+    left: 16.7%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     border-radius: 30px;
     background-color: lightgreen;
     z-index: +1;
   }
- /*.button1:active {   
-      background:url(C:\Users\Laptop\OneDrive\Documents\Uni Work\Final Year\Code First - Girls\GitHub\Living-Abroad.github.io\Pin.png) no-repeat;
-  } */
+
 
   .button2 {
     position: absolute;
     float: left;
-    bottom: 24%;
+    bottom: 25%;
     left: 30%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
@@ -58,45 +93,40 @@ figcaption {
   .button3 {
     position: absolute;
     float: left;
-    bottom: 43.2%;
+    bottom: 44.4%;
     left: 25.8%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     border-radius: 100px;
     background-color: lightgreen;
   }
-  /*.modal {
-    position: absolute;
-    bottom: 60px;
-    right: 1000px;
-    display: none;
-  }
-  */
 
   #myModal1 {
     position: absolute;
-    bottom: 61%;
-    left: 17%;
-    transform: translate(50%, 50%);
-    -ms-transform: translate(50%, 50%);
+    bottom: 19.5%;
+    left: 16.7%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
     display: none;
     background-color: whitesmoke;
     opacity: 0.9;
     border-radius: 20px;
-    min-width: 50vw;
+    min-width: 20vw;
+    z-index: +1;
   }
 
   #myModal2 {
     position: absolute;
-    bottom: 52%;
+    bottom: 25%;
     left: 30%;
-    transform: translate(50%, 50%);
-    -ms-transform: translate(50%, 50%);
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
     display: none;
     background-color: whitesmoke;
     opacity: 0.9;
     border-radius: 20px; 
-    min-width: 40vw; 
+    min-width: 20vw; 
+    z-index: +1;
   }
 
   #myModal3 {
@@ -110,6 +140,7 @@ figcaption {
     opacity: 0.9;
     border-radius: 20px; 
     min-width: 50vw; 
+    z-index: +1;
   }
 
 

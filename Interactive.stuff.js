@@ -1,23 +1,32 @@
 showModal = function(name) {
+  
+  var allModals = document.getElementsByClassName("modal");
+  for(var x = 0; x < allModals.length; x++){
+    allModals[x].style.display = "none";
+  }
+
     modal = document.getElementById(name);
     modal.style.display = "block";
   };
 
-var span = document.getElementsByClassName("close")[0];
+var spanMadrid = document.getElementsByClassName("close1")[0];
 
-  span.onclick = function() {
+  spanMadrid.onclick = function() {
+    modal = document.getElementById("myModal1");
     modal.style.display = "none";
     };
 
-var span = document.getElementsByClassName("close")[1];
+var spanMont = document.getElementsByClassName("close2")[0];
 
-    span.onclick = function() {
+    spanMont.onclick = function() {
+      modal = document.getElementById("myModal2");
       modal.style.display = "none";
       };
 
-var span = document.getElementsByClassName("close")[2];
+var spanLondon = document.getElementsByClassName("close3")[0];
 
-    span.onclick = function() {
+    spanLondon.onclick = function() {
+      modal = document.getElementById("myModal3");
       modal.style.display = "none";
       };
       
