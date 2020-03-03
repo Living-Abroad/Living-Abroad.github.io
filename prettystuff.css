@@ -74,7 +74,7 @@ figcaption {
   .button2 {
     position: absolute;
     float: left;
-    bottom: 29%;
+    bottom: 28.5%;
     left: 30%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
@@ -85,7 +85,7 @@ figcaption {
   .button3 {
     position: absolute;
     float: left;
-    bottom: 47%;
+    bottom: 46.8%;
     left: 25.8%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
@@ -109,7 +109,7 @@ figcaption {
 
   #myModal2 {
     position: absolute;
-    bottom: 27%;
+    bottom: 26.5%;
     left: 30%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
