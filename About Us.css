@@ -41,34 +41,32 @@ h1 {
 
 .Gallery {
      max-width: 800px;
-     flex-wrap: wrap;
      display: flex;
-
+     padding-left: 100px;
     }
 
-.gallery-itemone {
+.gallery-item {
     border: 1px solid black;
     display: flex;
     flex-direction: column;
     margin: auto;
     padding: 10px;
-   
     }
 
-    .gallery-itemtwo {
-      border: 1px solid black;
-      display: flex;
-      flex-direction: column;
-      margin: auto;
-      padding: 10px;
-      }
-
-.gallery-itemone figcaption {
+#box-one {
     text-align: center;
     padding: 5px; 
+    min-width: 320px;
+    max-width: 320px;
 }
 
-.gallery-itemtwo figcaption {
+#box-two {
   text-align: center;
   padding: 5px;
+  min-width: 320px;
+  max-width: 320px;
+}
+
+#box-one img{
+  text-align: center;
 }
